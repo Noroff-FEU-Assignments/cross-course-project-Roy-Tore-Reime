@@ -2,30 +2,62 @@
 <html>
   <head>
     <title>My first website</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
-    <h2>Web Security</h2>
-    <p id="web-security-question">
-      How would you advise a potential client to secure his/her website from web
-      security attacks? Note: the word count for your answer should not be
-      greater than 250 words
-    </p>
-    <h3 id="web-security-answer">I would tell them the following:</h3>
+    <div class="header">
+      <h1>Hello world!</h1>
+      <p>Welcome to my first website.</p>
+      <h2>Web Security</h2>
+      <p id="web-security-question">
+        How would you advise a potential client to secure his/her website from
+        web security attacks? Note: the word count for your answer should not be
+        greater than 250 words
+      </p>
+      <h3 id="web-security-answer">I would tell them the following:</h3>
+    </div>
     <div class="container">
-    <li>Don't use the same password for everyting.</li>
-    <li>Use 2FA if posible.</li>
-    <li>Continuous Integration/CI is a greate way to do secuirty checks before it goes out. If it get flaged then you can rework it.</li>
-    <li>Use NodeJS. NodeJS will sanitize-html package and sanitize HTML code</li>
-    <li>Only use well-known thrid party applications.</li>
-    <li>Use https so everything is encrypted, and attackers can't get your info.</li>
-    <li>Make sure your API is working corretly.</li>
-    <li>Don't check your private email on work.</li>
-    <li>Keep important files local if posbile</li>
-    <li>Get a good IT team.</li>
-    <li>Remember to take backups.</li>
-    <li></li>
-  </div>
+      <ul>
+        <li>Implement a strong password policy.</li>
+        <li>Enable two-factor authentication if posbile.</li>
+        <li>
+          Continuous Integration/CI is a greate way to do secuirty checks before
+          it goes out. If it get flaged then you can rework it.
+        </li>
+        <li>
+          Install a web application firewall. This will protect against common
+          web-based attacks such as SQL injections and cross-site scripting
+        </li>
+        <li>
+          Implementing secure protocols. This includes using secure protocols
+          such as SSL/TLS and SSH when transferring data between systems.
+        </li>
+        <li>Only use well-known thrid party applications.</li>
+        <li>Use NodeJS sanitize-html package. To sanitize HTML code.</li>
+        <li>
+          Use "https" so everything is encrypted, and attackers can't get your
+          info.
+        </li>
+        <li>Make sure your API is working corretly.</li>
+        <li>Don't check your private email on work.</li>
+        <li>Keep important files local if posbile</li>
+        <li>Get a good IT team.</li>
+        <li>
+          Monitoring and logging. All website activity should be monitored and
+          logged, and any suspicious activity should be investigated
+        </li>
+        <li>Remember to take backups of your website code base</li>
+        <li>Remember to update your software.</li>
+        <li>
+          You and your crew should always have secuirty in mind by default.
+        </li>
+      </ul>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <img src="/image/hackerman.jpg" alt="hackerman" />
+      </a>
+    </div>
   </body>
 </html>
